@@ -3,7 +3,7 @@
 This project includes custom DAX calculations designed to quantify Alzheimer’s progression from MRI image data.
 
 ```dax
-// ░░░░░░ CORE COLUMNS & METRICS ░░░░░░
+// CORE COLUMNS & METRICS
 
 Severity Score = 
 SWITCH(
@@ -33,7 +33,7 @@ AVERAGE(All_Disease[std_pixel_intensity])
 Central Brightness Trend = 
 AVERAGE(All_Disease[center_brightness])
 
-// ░░░░░░ COMPOSITE SEVERITY MODEL ░░░░░░
+// COMPOSITE SEVERITY MODEL
 
 CompositeSeverity = 
 VAR MinEnt  = MINX(ALL('All_Disease'), [entropy])
@@ -53,7 +53,7 @@ RETURN
     0.3 * zEdge +
     0.3 * zCtr
 
-// ░░░░░░ SCAN COUNTS & PERCENTAGES ░░░░░░
+// SCAN COUNTS & PERCENTAGES
 
 Total Scans = 
 COUNTROWS(All_Disease)
