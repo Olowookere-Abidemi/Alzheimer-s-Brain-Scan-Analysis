@@ -130,7 +130,7 @@ CompositeSeverity tracks labels; high score = structurally degraded scan.
 
 ## Try the Interactive Dashboard
 
-🔗 [View the Alzheimer’s Brain Scan Dashboard in Power BI](https://app.powerbi.com/groups/me/reports/46ca28fc-d26f-4d7f-961a-d3f07df06a16/0b2e11c2c6bfd4a2afb2?experience=power-bi)
+🔗 [View the Alzheimer’s Brain Scan Dashboard in Power BI](https://app.powerbi.com/reportEmbed?reportId=46ca28fc-d26f-4d7f-961a-d3f07df06a16&autoAuth=true&ctid=66b3f0c2-8bc6-451e-9603-986f618ae682)
 
 Explore the full dashboard online — scroll through key metrics, disease severity trends, and visual breakdowns of over 43,000 brain scans. Use filters, and see insights come alive.
 
